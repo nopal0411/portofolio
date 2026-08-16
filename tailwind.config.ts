@@ -78,8 +78,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-plus-jakarta)", "var(--font-inter)", "sans-serif"],
-        mono: ["var(--font-mono)", "monospace"],
+        sans: ["Plus Jakarta Sans", "Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        mono: ["ui-monospace", "monospace"],
       },
       fontSize: {
         "display-2xl": ["4.5rem", { lineHeight: "1.1", letterSpacing: "-0.02em" }],

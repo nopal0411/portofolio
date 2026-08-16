@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { Navbar } from "@/components/layout/Navbar";
@@ -8,19 +7,6 @@ import { ScrollProgress } from "@/components/layout/ScrollProgress";
 import { FloatingContact } from "@/components/layout/FloatingContact";
 import { siteConfig } from "@/lib/constants";
 
-// ── Fonts ──
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const plusJakarta = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  variable: "--font-plus-jakarta",
-  display: "swap",
-  weight: ["400", "500", "600", "700", "800"],
-});
 
 // ── Metadata ──
 export const metadata: Metadata = {
@@ -124,7 +110,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.variable} ${plusJakarta.variable} font-sans antialiased`}
+        className={`font-sans antialiased`}
         suppressHydrationWarning
       >
         <ThemeProvider>
