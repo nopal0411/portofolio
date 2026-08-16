@@ -62,11 +62,12 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#F8FAFC" },
+    { media: "(prefers-color-scheme: light)", color: "#0F172A" },
     { media: "(prefers-color-scheme: dark)", color: "#0F172A" },
   ],
   width: "device-width",
   initialScale: 1,
+  maximumScale: 5,
 };
 
 // ── JSON-LD Structured Data ──
@@ -91,8 +92,8 @@ const jsonLd = {
     addressCountry: "ID",
   },
   sameAs: [
-    "https://github.com/[USERNAME]",
-    "https://linkedin.com/in/[USERNAME]",
+    "https://github.com/nopal0411",
+    "https://www.linkedin.com/in/naufalfariyan/",
   ],
 };
 
