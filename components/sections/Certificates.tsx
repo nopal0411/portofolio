@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Award, ExternalLink, Calendar } from "lucide-react";
+import { Award, Calendar } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Badge } from "@/components/ui/Badge";
 import { staggerContainerVariant, staggerItemVariant, viewportConfig } from "@/lib/animations";
@@ -103,18 +103,7 @@ export function Certificates() {
                       <p className={cn("text-xs font-semibold mb-3", issuerColors[cert.issuer] ?? "text-primary-600")}>
                         {cert.issuer}
                       </p>
-                      {cert.credentialUrl && (
-                        <a
-                          href={cert.credentialUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 text-xs font-semibold text-[var(--color-fg-muted)] hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-                          aria-label={`View certificate: ${cert.title}`}
-                        >
-                          <ExternalLink size={11} />
-                          Lihat Sertifikat
-                        </a>
-                      )}
+
                     </div>
                   </div>
                 </motion.div>
@@ -155,19 +144,8 @@ export function Certificates() {
                       <p className={cn("text-[10px] font-semibold mb-2 truncate", issuerColors[cert.issuer] ?? "text-[var(--color-fg-muted)]")}>
                         {cert.issuer}
                       </p>
-                      <div className="flex items-center justify-between">
+                      <div className="flex items-center">
                         <span className="text-[10px] text-[var(--color-fg-subtle)]">{cert.year}</span>
-                        {cert.credentialUrl && (
-                          <a
-                            href={cert.credentialUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[var(--color-fg-subtle)] hover:text-primary-600 transition-colors"
-                            aria-label={`View ${cert.title}`}
-                          >
-                            <ExternalLink size={11} />
-                          </a>
-                        )}
                       </div>
                     </div>
                   </div>

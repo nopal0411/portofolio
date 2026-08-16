@@ -3,18 +3,21 @@
 // ============================================================
 
 export const siteConfig = {
-  name: "[NAMA ANDA], S.Kom.",
-  shortName: "[NAMA ANDA]",
+  name: "MOH. NAUFAL FARIYAN, S.Kom.",
+  shortName: "Naufal",
   title: "Full Stack Web Developer | Software Developer",
   description:
-    "Website portofolio personal [NAMA ANDA] — Fresh Graduate Informatika Universitas Bhayangkara Jakarta Raya. Full Stack Web Developer yang membangun aplikasi web modern, cepat, dan responsif.",
+    "Website portofolio personal Moh. Naufal Fariyan — Fresh Graduate Informatika Universitas Bhayangkara Jakarta Raya. Full Stack Web Developer & Data Analyst yang membangun aplikasi web modern, cepat, dan responsif.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://portfolio.vercel.app",
   ogImage: `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://portfolio.vercel.app"}/og-image.png`,
   keywords: [
+    "Moh Naufal Fariyan",
+    "Naufal Fariyan",
     "portfolio",
     "web developer",
     "full stack developer",
     "software developer",
+    "data analyst",
     "informatika",
     "fresh graduate",
     "bekasi",
@@ -22,9 +25,11 @@ export const siteConfig = {
     "react",
     "nextjs",
     "typescript",
+    "python",
+    "ubhara",
   ],
-  author: "[NAMA ANDA]",
-  twitterHandle: "@[USERNAME]",
+  author: "Moh. Naufal Fariyan",
+  twitterHandle: "@naufalfariyan",
 };
 
 export const navLinks = [
@@ -39,11 +44,11 @@ export const navLinks = [
 ];
 
 export const socialLinks = {
-  github: "https://github.com/[USERNAME]",
-  linkedin: "https://linkedin.com/in/[USERNAME]",
-  instagram: "https://instagram.com/[USERNAME]",
-  email: "mailto:[EMAIL@ANDA.COM]",
-  whatsapp: "https://wa.me/628XXXXXXXXX",
+  github: "https://github.com/nopal0411",
+  linkedin: "https://www.linkedin.com/in/naufalfariyan/",
+  instagram: "https://instagram.com/naufalfariyan",
+  email: "mailto:fariyannaufal3@gmail.com",
+  whatsapp: "https://wa.me/6281211785556",
 };
 
 export const TYPING_PHRASES = [
@@ -59,6 +64,6 @@ export const PROJECT_CATEGORIES = [
   { id: "all", label: "Semua" },
   { id: "web", label: "Web App" },
   { id: "fullstack", label: "Full Stack" },
-  { id: "ai-ml", label: "AI/ML" },
+  { id: "ai-ml", label: "AI/ML & Data" },
   { id: "tools", label: "Tools" },
 ] as const;

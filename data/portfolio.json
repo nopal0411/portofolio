@@ -1,7 +1,7 @@
 {
   "personal": {
-    "name": "[NAMA ANDA]",
-    "nickname": "[NAMA PANGGILAN]",
+    "name": "MOH. NAUFAL FARIYAN",
+    "nickname": "Naufal",
     "title": "Full Stack Web Developer",
     "degree": "S.Kom.",
     "major": "Informatika",
@@ -10,21 +10,41 @@
     "status": "Fresh Graduate",
     "location": "Bekasi, Indonesia",
     "bio": "Lulusan S1 Informatika Fakultas Ilmu Komputer yang memiliki minat besar pada pengembangan perangkat lunak, web development, UI/UX, database, serta pengembangan sistem informasi. Memiliki pengalaman membangun aplikasi berbasis web menggunakan teknologi modern dan mampu bekerja secara individu maupun tim. Berkomitmen untuk terus belajar dan berkontribusi dalam dunia teknologi.",
-    "email": "[EMAIL@ANDA.COM]",
-    "phone": "[+62 XXX-XXXX-XXXX]",
-    "whatsapp": "628XXXXXXXXX",
-    "linkedin": "https://linkedin.com/in/[USERNAME]",
-    "github": "https://github.com/[USERNAME]",
-    "instagram": "https://instagram.com/[USERNAME]",
+    "email": "fariyannaufal3@gmail.com",
+    "phone": "[+62 812-1178-5556]",
+    "whatsapp": "6281211785556",
+    "linkedin": "https://www.linkedin.com/in/naufalfariyan/",
+    "github": "https://github.com/nopal0411",
+    "instagram": "https://instagram.com/naufalfariyan",
     "cvUrl": "/cv.pdf",
     "profileImage": "/assets/profile.jpg",
     "availableForWork": true
   },
   "stats": [
-    { "label": "Project Selesai", "value": 15, "suffix": "+", "icon": "FolderCode" },
-    { "label": "Teknologi Dikuasai", "value": 20, "suffix": "+", "icon": "Code2" },
-    { "label": "Sertifikat", "value": 10, "suffix": "+", "icon": "Award" },
-    { "label": "Tahun Belajar", "value": 4, "suffix": "+", "icon": "GraduationCap" }
+    {
+      "label": "Project Selesai",
+      "value": 15,
+      "suffix": "+",
+      "icon": "FolderCode"
+    },
+    {
+      "label": "Teknologi Dikuasai",
+      "value": 20,
+      "suffix": "+",
+      "icon": "Code2"
+    },
+    {
+      "label": "Sertifikat",
+      "value": 10,
+      "suffix": "+",
+      "icon": "Award"
+    },
+    {
+      "label": "Tahun Belajar",
+      "value": 4,
+      "suffix": "+",
+      "icon": "GraduationCap"
+    }
   ],
   "skills": [
     {
@@ -32,12 +52,42 @@
       "label": "Programming",
       "icon": "Code2",
       "skills": [
-        { "name": "PHP", "level": 85, "icon": "php", "color": "#777BB4" },
-        { "name": "JavaScript", "level": 88, "icon": "javascript", "color": "#F7DF1E" },
-        { "name": "TypeScript", "level": 75, "icon": "typescript", "color": "#3178C6" },
-        { "name": "Python", "level": 70, "icon": "python", "color": "#3776AB" },
-        { "name": "Java", "level": 65, "icon": "java", "color": "#ED8B00" },
-        { "name": "HTML/CSS", "level": 92, "icon": "html", "color": "#E34F26" }
+        {
+          "name": "PHP",
+          "level": 85,
+          "icon": "php",
+          "color": "#777BB4"
+        },
+        {
+          "name": "JavaScript",
+          "level": 80,
+          "icon": "javascript",
+          "color": "#F7DF1E"
+        },
+        {
+          "name": "TypeScript",
+          "level": 75,
+          "icon": "typescript",
+          "color": "#3178C6"
+        },
+        {
+          "name": "Python",
+          "level": 88,
+          "icon": "python",
+          "color": "#3776AB"
+        },
+        {
+          "name": "Java",
+          "level": 65,
+          "icon": "java",
+          "color": "#ED8B00"
+        },
+        {
+          "name": "HTML/CSS",
+          "level": 92,
+          "icon": "html",
+          "color": "#E34F26"
+        }
       ]
     },
     {
@@ -45,12 +95,42 @@
       "label": "Framework",
       "icon": "Layers",
       "skills": [
-        { "name": "Laravel", "level": 85, "icon": "laravel", "color": "#FF2D20" },
-        { "name": "React", "level": 80, "icon": "react", "color": "#61DAFB" },
-        { "name": "Next.js", "level": 75, "icon": "nextjs", "color": "#000000" },
-        { "name": "Node.js", "level": 70, "icon": "nodejs", "color": "#339933" },
-        { "name": "Bootstrap", "level": 88, "icon": "bootstrap", "color": "#7952B3" },
-        { "name": "Tailwind CSS", "level": 85, "icon": "tailwindcss", "color": "#06B6D4" }
+        {
+          "name": "Laravel",
+          "level": 91,
+          "icon": "laravel",
+          "color": "#FF2D20"
+        },
+        {
+          "name": "React",
+          "level": 80,
+          "icon": "react",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "Next.js",
+          "level": 75,
+          "icon": "nextjs",
+          "color": "#000000"
+        },
+        {
+          "name": "Node.js",
+          "level": 70,
+          "icon": "nodejs",
+          "color": "#339933"
+        },
+        {
+          "name": "Bootstrap",
+          "level": 88,
+          "icon": "bootstrap",
+          "color": "#7952B3"
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": 85,
+          "icon": "tailwindcss",
+          "color": "#06B6D4"
+        }
       ]
     },
     {
@@ -58,10 +138,30 @@
       "label": "Database",
       "icon": "Database",
       "skills": [
-        { "name": "MySQL", "level": 85, "icon": "mysql", "color": "#4479A1" },
-        { "name": "PostgreSQL", "level": 72, "icon": "postgresql", "color": "#336791" },
-        { "name": "MongoDB", "level": 65, "icon": "mongodb", "color": "#47A248" },
-        { "name": "Redis", "level": 55, "icon": "redis", "color": "#DC382D" }
+        {
+          "name": "MySQL",
+          "level": 85,
+          "icon": "mysql",
+          "color": "#4479A1"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 72,
+          "icon": "postgresql",
+          "color": "#336791"
+        },
+        {
+          "name": "MongoDB",
+          "level": 65,
+          "icon": "mongodb",
+          "color": "#47A248"
+        },
+        {
+          "name": "Redis",
+          "level": 55,
+          "icon": "redis",
+          "color": "#DC382D"
+        }
       ]
     },
     {
@@ -69,12 +169,42 @@
       "label": "Tools & DevOps",
       "icon": "Wrench",
       "skills": [
-        { "name": "Git", "level": 85, "icon": "git", "color": "#F05032" },
-        { "name": "GitHub", "level": 85, "icon": "github", "color": "#181717" },
-        { "name": "Figma", "level": 75, "icon": "figma", "color": "#F24E1E" },
-        { "name": "VS Code", "level": 92, "icon": "vscode", "color": "#007ACC" },
-        { "name": "Docker", "level": 60, "icon": "docker", "color": "#2496ED" },
-        { "name": "Postman", "level": 80, "icon": "postman", "color": "#FF6C37" }
+        {
+          "name": "Microsoft Office",
+          "level": 94,
+          "icon": "mo",
+          "color": "#F05032"
+        },
+        {
+          "name": "GitHub",
+          "level": 80,
+          "icon": "github",
+          "color": "#181717"
+        },
+        {
+          "name": "Figma",
+          "level": 87,
+          "icon": "figma",
+          "color": "#F24E1E"
+        },
+        {
+          "name": "VS Code",
+          "level": 92,
+          "icon": "vscode",
+          "color": "#007ACC"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "level": 86,
+          "icon": "jupyter",
+          "color": "#2496ED"
+        },
+        {
+          "name": "Linux",
+          "level": 80,
+          "icon": "linux",
+          "color": "#FF6C37"
+        }
       ]
     }
   ],
@@ -85,8 +215,19 @@
       "shortDescription": "Sistem cerdas penjadwalan treatment pasien menggunakan algoritma Neural Network untuk rekomendasi waktu optimal.",
       "description": "Sistem penjadwalan treatment pasien berbasis web yang memanfaatkan algoritma Neural Network untuk memberikan rekomendasi jadwal yang optimal berdasarkan kondisi pasien, ketersediaan dokter, dan riwayat treatment. Sistem ini dilengkapi dengan dashboard manajemen, notifikasi real-time, dan laporan analitik.",
       "category": "fullstack",
-      "tags": ["AI/ML", "Healthcare", "Web App"],
-      "techStack": ["Laravel", "MySQL", "JavaScript", "Bootstrap", "Python", "TensorFlow"],
+      "tags": [
+        "AI/ML",
+        "Healthcare",
+        "Web App"
+      ],
+      "techStack": [
+        "Laravel",
+        "MySQL",
+        "JavaScript",
+        "Bootstrap",
+        "Python",
+        "TensorFlow"
+      ],
       "features": [
         "Smart Scheduling dengan Neural Network",
         "Rekomendasi Jadwal Otomatis",
@@ -109,8 +250,19 @@
       "shortDescription": "Platform e-commerce full-featured dengan sistem pembayaran, manajemen produk, dan dashboard admin.",
       "description": "Platform e-commerce yang komprehensif dengan fitur-fitur modern seperti autentikasi multi-provider, sistem keranjang belanja, integrasi payment gateway Midtrans, manajemen inventori, laporan penjualan, dan panel admin yang powerful.",
       "category": "fullstack",
-      "tags": ["E-Commerce", "Full Stack", "Payment"],
-      "techStack": ["Laravel", "React", "MySQL", "Tailwind CSS", "Midtrans API", "Redis"],
+      "tags": [
+        "E-Commerce",
+        "Full Stack",
+        "Payment"
+      ],
+      "techStack": [
+        "Laravel",
+        "React",
+        "MySQL",
+        "Tailwind CSS",
+        "Midtrans API",
+        "Redis"
+      ],
       "features": [
         "Authentication Multi-provider",
         "Keranjang Belanja & Wishlist",
@@ -133,8 +285,19 @@
       "shortDescription": "Sistem kasir modern dengan manajemen produk, transaksi real-time, dan laporan keuangan.",
       "description": "Aplikasi Point of Sale yang dirancang untuk UMKM dan bisnis retail. Dilengkapi dengan fitur manajemen stok otomatis, cetak struk thermal, laporan keuangan harian/bulanan, dan multi-kasir. Mendukung mode offline menggunakan IndexedDB.",
       "category": "web",
-      "tags": ["POS", "Business", "Retail"],
-      "techStack": ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS", "Recharts"],
+      "tags": [
+        "POS",
+        "Business",
+        "Retail"
+      ],
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma",
+        "Tailwind CSS",
+        "Recharts"
+      ],
       "features": [
         "Manajemen Produk & Kategori",
         "Transaksi Cepat & Akurat",
@@ -152,26 +315,37 @@
       "status": "completed"
     },
     {
-      "id": "school-management",
-      "title": "School Management System",
-      "shortDescription": "Sistem manajemen sekolah terpadu untuk siswa, guru, orang tua, dan administrasi.",
-      "description": "Sistem informasi sekolah yang mengelola seluruh operasional akademik secara digital. Mencakup absensi QR Code, penilaian online, jadwal pelajaran otomatis, komunikasi guru-orang tua, dan laporan akademik siswa secara berkala.",
-      "category": "fullstack",
-      "tags": ["Education", "Management", "SIS"],
-      "techStack": ["Laravel", "MySQL", "Vue.js", "Bootstrap", "Chart.js", "QR Code"],
-      "features": [
-        "Absensi QR Code",
-        "Penilaian & Raport Online",
-        "Jadwal Pelajaran Otomatis",
-        "Komunikasi Guru-Orang Tua",
-        "Manajemen Kelas & Siswa",
-        "Laporan Akademik",
-        "Dashboard Multi-Role"
+      "id": "kmeans-product-segmentation",
+      "title": "Product Segmentation Using K-Means Clustering",
+      "shortDescription": "Analisis data produk menggunakan algoritma K-Means Clustering untuk menentukan segmentasi produk slow, medium, dan fast moving.",
+      "description": "Proyek data analyst yang mengimplementasikan algoritma K-Means Clustering untuk melakukan segmentasi produk berdasarkan data penjualan dan pergerakan stok. Menghasilkan visualisasi cluster yang interaktif, laporan segmentasi produk (slow moving, medium moving, fast moving), serta rekomendasi pengelolaan inventori. Dibangun menggunakan Python dengan library scikit-learn, pandas, dan matplotlib.",
+      "category": "ai-ml",
+      "tags": [
+        "Data Analyst",
+        "Machine Learning",
+        "Python"
       ],
-      "image": "/assets/projects/school-management.jpg",
-      "githubUrl": "https://github.com/[USERNAME]/school-management",
+      "techStack": [
+        "Python",
+        "Scikit-learn",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Jupyter Notebook"
+      ],
+      "features": [
+        "K-Means Clustering Algorithm",
+        "Visualisasi Cluster Scatter Plot",
+        "Segmentasi Fast / Medium / Slow Moving",
+        "Feature Correlation Heatmap",
+        "Distribusi Cluster Bar Chart",
+        "Export Hasil Segmentasi ke Excel",
+        "Rekomendasi Manajemen Inventori"
+      ],
+      "image": "/assets/projects/kmeans-clustering.jpg",
+      "githubUrl": "https://github.com/nopal0411/kmeans-product-segmentation",
       "liveUrl": null,
-      "featured": false,
+      "featured": true,
       "year": 2024,
       "status": "completed"
     },
@@ -181,8 +355,18 @@
       "shortDescription": "Website portofolio personal modern dengan animasi Framer Motion dan desain glassmorphism.",
       "description": "Website portofolio personal yang dibangun menggunakan Next.js 15, TypeScript, Tailwind CSS, dan Framer Motion. Menampilkan proyek, skill, pengalaman, dan sertifikat dengan animasi yang halus dan desain yang premium. Dilengkapi dark mode, SEO optimization, dan Lighthouse score 95+.",
       "category": "web",
-      "tags": ["Portfolio", "Frontend", "Design"],
-      "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Shadcn UI"],
+      "tags": [
+        "Portfolio",
+        "Frontend",
+        "Design"
+      ],
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Shadcn UI"
+      ],
       "features": [
         "Animasi Framer Motion",
         "Dark/Light Mode",
@@ -193,31 +377,42 @@
         "Contact Form dengan Validasi"
       ],
       "image": "/assets/projects/portfolio.jpg",
-      "githubUrl": "https://github.com/[USERNAME]/portfolio",
-      "liveUrl": "https://[USERNAME].vercel.app",
+      "githubUrl": "https://github.com/nopal0411/portfolio",
+      "liveUrl": null,
       "featured": false,
       "year": 2025,
       "status": "completed"
     },
     {
-      "id": "movie-recommendation",
-      "title": "Movie Recommendation System",
-      "shortDescription": "Sistem rekomendasi film menggunakan algoritma Collaborative Filtering dan Content-Based Filtering.",
-      "description": "Aplikasi rekomendasi film yang menggunakan machine learning untuk memberikan saran film personal berdasarkan riwayat tontonan dan preferensi pengguna. Mengimplementasikan algoritma Collaborative Filtering dan Content-Based Filtering dengan dataset MovieLens.",
-      "category": "ai-ml",
-      "tags": ["AI/ML", "Recommendation", "Python"],
-      "techStack": ["Python", "Flask", "Scikit-learn", "Pandas", "React", "PostgreSQL"],
-      "features": [
-        "Collaborative Filtering",
-        "Content-Based Filtering",
-        "Hybrid Recommendation",
-        "User Rating System",
-        "Movie Search & Filter",
-        "Personalized Feed",
-        "Watchlist Management"
+      "id": "finflow",
+      "title": "FinFlow — Manajemen Keuangan Pribadi",
+      "shortDescription": "Aplikasi manajemen keuangan pribadi untuk mencatat pemasukan, pengeluaran, anggaran, dan goals tabungan.",
+      "description": "FinFlow adalah aplikasi web manajemen keuangan pribadi yang membantu pengguna mengelola keuangan secara cerdas. Dilengkapi dengan fitur pencatatan transaksi berkategori, budget tracker bulanan, visualisasi income vs expenses, kalender transaksi, dan goals tabungan dengan progress tracking. Dibangun dengan antarmuka yang bersih dan intuitif.",
+      "category": "fullstack",
+      "tags": [
+        "Finance",
+        "Full Stack",
+        "Web App"
       ],
-      "image": "/assets/projects/movie-recommendation.jpg",
-      "githubUrl": "https://github.com/[USERNAME]/movie-recommendation",
+      "techStack": [
+        "Laravel",
+        "MySQL",
+        "JavaScript",
+        "Bootstrap",
+        "Chart.js",
+        "Tailwind CSS"
+      ],
+      "features": [
+        "Pencatatan Pemasukan & Pengeluaran",
+        "Budget Tracker Bulanan",
+        "Visualisasi Income vs Expenses",
+        "Kategorisasi Transaksi Otomatis",
+        "Kalender Transaksi",
+        "Goals & Target Tabungan",
+        "Laporan Keuangan Bulanan / Tahunan"
+      ],
+      "image": "/assets/projects/finflow.jpg",
+      "githubUrl": "https://github.com/nopal0411/finflow",
       "liveUrl": null,
       "featured": false,
       "year": 2023,
@@ -242,7 +437,13 @@
         "Mendokumentasikan prosedur teknis dan panduan pengguna",
         "Membantu dalam pengelolaan database dan backup data"
       ],
-      "techStack": ["PHP", "MySQL", "Bootstrap", "HTML/CSS", "JavaScript"],
+      "techStack": [
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "HTML/CSS",
+        "JavaScript"
+      ],
       "logo": "/assets/logos/polres.png"
     }
   ],
@@ -264,12 +465,54 @@
         "Menyelesaikan Tugas Akhir bidang Kecerdasan Buatan"
       ],
       "logo": "/assets/logos/ubhara.png"
+    },
+    {
+      "id": "sman18",
+      "degree": "Sekolah Menengah Atas (SMA)",
+      "major": "IPA",
+      "faculty": "",
+      "institution": "SMAN 18 Kota Bekasi",
+      "location": "Bekasi, Jawa Barat",
+      "startYear": 2019,
+      "endYear": 2022,
+      "gpa": null,
+      "description": "Menempuh pendidikan SMA jurusan IPA di SMAN 18 Kota Bekasi. Aktif dalam kegiatan sekolah dan mulai mengenal dunia pemrograman.",
+      "achievements": [],
+      "logo": null
+    },
+    {
+      "id": "smpn11",
+      "degree": "Sekolah Menengah Pertama (SMP)",
+      "major": "",
+      "faculty": "",
+      "institution": "SMPN 11 Kota Bekasi",
+      "location": "Bekasi, Jawa Barat",
+      "startYear": 2016,
+      "endYear": 2019,
+      "gpa": null,
+      "description": "Menempuh pendidikan di SMPN 11 Kota Bekasi.",
+      "achievements": [],
+      "logo": null
+    },
+    {
+      "id": "sdn-aren-jaya",
+      "degree": "Sekolah Dasar (SD)",
+      "major": "",
+      "faculty": "",
+      "institution": "SDN Aren Jaya XVIII",
+      "location": "Bekasi, Jawa Barat",
+      "startYear": 2010,
+      "endYear": 2016,
+      "gpa": null,
+      "description": "Menempuh pendidikan dasar di SDN Aren Jaya XVIII Bekasi.",
+      "achievements": [],
+      "logo": null
     }
   ],
   "certificates": [
     {
       "id": "google-data-analytics",
-      "title": "Google Data Analytics Professional Certificate",
+      "title": "Google Data Analytics Certificate",
       "issuer": "Google",
       "issuerLogo": "/assets/logos/google.png",
       "year": 2024,
@@ -280,10 +523,10 @@
     },
     {
       "id": "dicoding-backend",
-      "title": "Menjadi Back-End Developer Expert",
-      "issuer": "Dicoding Indonesia",
+      "title": "Engineer, Kenapa Harus Takut Dengan AI",
+      "issuer": "Kementrian Ketenagakerjaan Republik Indonesia (BPKK BEKASI)",
       "issuerLogo": "/assets/logos/dicoding.png",
-      "year": 2024,
+      "year": 2026,
       "credentialId": "XXXXXXXXXXXXXXXX",
       "credentialUrl": "https://dicoding.com/certificates/XXXXXX",
       "category": "programming",
@@ -291,7 +534,7 @@
     },
     {
       "id": "cisco-networking",
-      "title": "Introduction to Networking",
+      "title": "Introduction to Cybersecurity",
       "issuer": "Cisco Networking Academy",
       "issuerLogo": "/assets/logos/cisco.png",
       "year": 2023,
@@ -302,7 +545,7 @@
     },
     {
       "id": "microsoft-azure",
-      "title": "AZ-900: Microsoft Azure Fundamentals",
+      "title": "Microsoft Azure Fundamentals",
       "issuer": "Microsoft",
       "issuerLogo": "/assets/logos/microsoft.png",
       "year": 2024,
@@ -313,8 +556,8 @@
     },
     {
       "id": "coursera-ml",
-      "title": "Machine Learning Specialization",
-      "issuer": "Coursera (Stanford University)",
+      "title": "Data Analytics Using Pandas",
+      "issuer": "Guvi (Google for Education Partner)",
       "issuerLogo": "/assets/logos/coursera.png",
       "year": 2023,
       "credentialId": "XXXXXXXXXXXXXXXX",
@@ -324,10 +567,10 @@
     },
     {
       "id": "bnsp-junior-programmer",
-      "title": "Junior Web Programmer",
+      "title": "Software Engineer",
       "issuer": "BNSP (Badan Nasional Sertifikasi Profesi)",
       "issuerLogo": "/assets/logos/bnsp.png",
-      "year": 2024,
+      "year": 2026,
       "credentialId": "XXXXXXXXXXXXXXXX",
       "credentialUrl": null,
       "category": "programming",
@@ -335,10 +578,10 @@
     },
     {
       "id": "dicoding-react",
-      "title": "Belajar Membuat Aplikasi React",
-      "issuer": "Dicoding Indonesia",
+      "title": "Bimbingan Teknis LSP 1 Software Engineer",
+      "issuer": "LSP Bhayangkara",
       "issuerLogo": "/assets/logos/dicoding.png",
-      "year": 2023,
+      "year": 2026,
       "credentialId": "XXXXXXXXXXXXXXXX",
       "credentialUrl": "https://dicoding.com/certificates/XXXXXX",
       "category": "programming",
@@ -349,7 +592,7 @@
       "title": "Belajar Dasar Pemrograman Web",
       "issuer": "Dicoding Indonesia",
       "issuerLogo": "/assets/logos/dicoding.png",
-      "year": 2022,
+      "year": 2023,
       "credentialId": "XXXXXXXXXXXXXXXX",
       "credentialUrl": "https://dicoding.com/certificates/XXXXXX",
       "category": "programming",
@@ -357,11 +600,11 @@
     }
   ],
   "contact": {
-    "email": "[EMAIL@ANDA.COM]",
-    "whatsapp": "628XXXXXXXXX",
-    "linkedin": "https://linkedin.com/in/[USERNAME]",
-    "github": "https://github.com/[USERNAME]",
-    "instagram": "https://instagram.com/[USERNAME]",
+    "email": "fariyannaufal3@gmail.com",
+    "whatsapp": "6281211785556",
+    "linkedin": "https://www.linkedin.com/in/naufalfariyan/",
+    "github": "https://github.com/nopal0411",
+    "instagram": "https://instagram.com/naufalfariyan",
     "location": "Bekasi, Jawa Barat, Indonesia"
   }
 }

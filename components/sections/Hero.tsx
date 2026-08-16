@@ -229,25 +229,21 @@ export function Hero() {
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
                 className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[26rem] lg:h-[26rem] rounded-full overflow-hidden border-4 border-[var(--color-bg)]"
               >
-                <Image
-                  src={personal.profileImage}
-                  alt={`Foto profil ${personal.name}`}
-                  fill
-                  className="object-cover"
-                  priority
-                  sizes="(max-width: 640px) 256px, (max-width: 1024px) 320px, 416px"
-                  onError={(e) => {
-                    // Fallback to a gradient avatar if image fails
-                    const target = e.target as HTMLImageElement;
-                    target.style.display = "none";
-                  }}
-                />
-                {/* Fallback gradient avatar */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-600 to-accent-400 flex items-center justify-center">
+                {/* Fallback gradient avatar (shown if image fails) */}
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-600 to-accent-400 flex items-center justify-center z-0">
                   <span className="text-7xl font-bold text-white select-none">
                     {personal.name.split(" ").map((w: string) => w[0]).join("").slice(0, 2)}
                   </span>
                 </div>
+                {/* Real profile photo — sits on top of the fallback */}
+                <Image
+                  src={personal.profileImage}
+                  alt={`Foto profil ${personal.name}`}
+                  fill
+                  className="object-cover object-top z-10 relative"
+                  priority
+                  sizes="(max-width: 640px) 256px, (max-width: 1024px) 320px, 416px"
+                />
               </motion.div>
 
               {/* Floating badges around the image */}

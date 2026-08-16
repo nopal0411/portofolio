@@ -3,13 +3,13 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import { Github, ExternalLink, X, Search, Tag, ChevronRight, Star, Calendar } from "lucide-react";
+import { ExternalLink, X, Search, Tag, ChevronRight, Star, Calendar } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Badge } from "@/components/ui/Badge";
 import { PROJECT_CATEGORIES } from "@/lib/constants";
 import { staggerContainerVariant, staggerItemVariant, modalVariant, overlayVariant, viewportConfig } from "@/lib/animations";
 import portfolioData from "@/data/portfolio.json";
-import { cn, debounce } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import type { Project } from "@/types";
 
 // Project Card Component
@@ -111,19 +111,6 @@ function ProjectCard({ project, onClick }: { project: Project; onClick: () => vo
 
         {/* Action Buttons */}
         <div className="flex gap-2 mt-auto">
-          {project.githubUrl && (
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`GitHub repository for ${project.title}`}
-              onClick={(e) => e.stopPropagation()}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-[var(--color-border)] text-[var(--color-fg-muted)] text-[11px] font-semibold hover:text-primary-600 hover:border-primary-600/30 hover:bg-[var(--color-primary-light)] transition-all duration-200"
-            >
-              <Github size={12} />
-              GitHub
-            </a>
-          )}
           {project.liveUrl && (
             <a
               href={project.liveUrl}
@@ -246,17 +233,6 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
 
             {/* Actions */}
             <div className="flex gap-3 flex-wrap">
-              {project.githubUrl && (
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-5 py-2.5 rounded-2xl border border-[var(--color-border)] text-[var(--color-fg)] text-sm font-semibold hover:border-primary-600/40 hover:bg-[var(--color-primary-light)] hover:text-primary-600 transition-all"
-                >
-                  <Github size={15} />
-                  Lihat di GitHub
-                </a>
-              )}
               {project.liveUrl && (
                 <a
                   href={project.liveUrl}
@@ -282,9 +258,9 @@ export function Projects() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const handleSearch = debounce((query: string) => {
-    setSearchQuery(query.toLowerCase());
-  }, 250);
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value.toLowerCase());
+  };
 
   const filteredProjects = useMemo(() => {
     return (projects as Project[]).filter((p) => {
@@ -341,7 +317,7 @@ export function Projects() {
             <input
               type="search"
               placeholder="Cari project..."
-              onChange={(e) => handleSearch(e.target.value)}
+              onChange={handleSearch}
               className="w-full pl-10 pr-4 py-2 text-sm rounded-xl bg-[var(--color-bg-card)] border border-[var(--color-border)] text-[var(--color-fg)] placeholder-[var(--color-fg-subtle)] focus:outline-none focus:border-primary-600/40 focus:ring-2 focus:ring-primary-600/10 transition-all"
               aria-label="Search projects"
             />
@@ -355,10 +331,10 @@ export function Projects() {
 
         {/* Projects Grid */}
         <motion.div
+          key={activeCategory}
           variants={staggerContainerVariant}
           initial="hidden"
-          whileInView="visible"
-          viewport={viewportConfig}
+          animate="visible"
           className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           <AnimatePresence mode="popLayout">

@@ -62,9 +62,11 @@ export function Education() {
                   <h3 className="text-lg font-bold text-[var(--color-fg)] group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors mb-1">
                     {edu.degree}
                   </h3>
-                  <p className="text-sm font-semibold text-primary-600 dark:text-primary-400 mb-1">
-                    {edu.major} · {edu.faculty}
-                  </p>
+                  {(edu.major || edu.faculty) && (
+                    <p className="text-sm font-semibold text-primary-600 dark:text-primary-400 mb-1">
+                      {[edu.major, edu.faculty].filter(Boolean).join(" · ")}
+                    </p>
+                  )}
 
                   <div className="flex items-center gap-2 mb-4">
                     <div className="w-8 h-8 rounded-xl bg-primary-600/10 flex items-center justify-center">
