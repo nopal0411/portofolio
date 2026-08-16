@@ -8,8 +8,8 @@ export const siteConfig = {
   title: "Full Stack Web Developer | Software Developer",
   description:
     "Website portofolio personal Moh. Naufal Fariyan — Fresh Graduate Informatika Universitas Bhayangkara Jakarta Raya. Full Stack Web Developer & Data Analyst yang membangun aplikasi web modern, cepat, dan responsif.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://portfolio.vercel.app",
-  ogImage: `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://portfolio.vercel.app"}/og-image.png`,
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://portofolio-nopal0411.vercel.app",
+  ogImage: `${process.env.NEXT_PUBLIC_SITE_URL || "https://portofolio-nopal0411.vercel.app"}/og-image.png`,
   keywords: [
     "Moh Naufal Fariyan",
     "Naufal Fariyan",
