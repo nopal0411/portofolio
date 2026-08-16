@@ -63,8 +63,8 @@ export interface Project {
   techStack: string[];
   features: string[];
   image: string;
-  githubUrl?: string;
-  liveUrl?: string;
+  githubUrl?: string | null;
+  liveUrl?: string | null;
   featured: boolean;
   year: number;
   status: "completed" | "in-progress" | "archived";
@@ -105,8 +105,8 @@ export interface Certificate {
   issuer: string;
   issuerLogo?: string;
   year: number;
-  credentialId?: string;
-  credentialUrl?: string;
+  credentialId?: string | null;
+  credentialUrl?: string | null;
   category: "cloud" | "programming" | "design" | "data" | "networking" | "general";
   featured?: boolean;
 }
