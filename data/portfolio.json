@@ -445,6 +445,32 @@
         "JavaScript"
       ],
       "logo": "/assets/logos/polres.png"
+    },
+    {
+      "id": "anjaz-farma",
+      "role": "Staff Apotek / Junior Software Developer & Data Analyst",
+      "company": "Apotek Anjaz Farma 2",
+      "location": "Bekasi, Jawa Barat",
+      "type": "fulltime",
+      "startDate": "2025-09",
+      "endDate": "2026-08",
+      "description": "Berperan ganda sebagai Staff Apotek sekaligus Junior Software Developer dan Data Analyst di Apotek Anjaz Farma 2, bertanggung jawab dalam pengembangan sistem manajemen inventaris dan penerapan teknik data science untuk pengambilan keputusan berbasis data.",
+      "responsibilities": [
+        "Merancang dan mengembangkan aplikasi manajemen inventaris berbasis localhost dari awal untuk mendigitalisasi pencatatan stok obat, menggantikan proses pencatatan manual dan meningkatkan akurasi stok",
+        "Membangun fitur CRUD inti untuk pemantauan stok, mencakup pelacakan real-time stok masuk, stok keluar, sell-in, dan sell-out, menyederhanakan proses pelaporan bulanan yang sebelumnya dilakukan secara manual",
+        "Menerapkan teknik data science untuk menyelesaikan permasalahan bisnis nyata — mengimplementasikan K-Means Clustering berbasis kerangka Knowledge Discovery in Databases (KDD) untuk mengelompokkan produk ke dalam kategori Fast Moving, Medium Moving, dan Slow Moving menggunakan data penjualan 2025, guna mendukung keputusan inventaris berbasis data",
+        "Mengelola koordinasi logistik end-to-end untuk distribusi obat ke klinik, rumah sakit, distributor, dan dokter, memastikan pemenuhan yang akurat dan tepat waktu"
+      ],
+      "techStack": [
+        "PHP",
+        "MySQL",
+        "Python",
+        "K-Means Clustering",
+        "Bootstrap",
+        "HTML/CSS",
+        "JavaScript"
+      ],
+      "logo": null
     }
   ],
   "education": [
